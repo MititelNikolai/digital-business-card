@@ -1,0 +1,47 @@
+.card__container {
+	width: 19.8rem;
+}
+.card__container__dark {
+	background: var(--color-bg-card-dark);
+	border-radius: 0.63rem 0.63rem 0.63rem 0.63rem;
+	overflow: hidden;
+}
+.card__container__light {
+	background: var(--color-bg-card-light);
+	border-radius: 0.63rem 0.63rem 0.63rem 0.63rem;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+/*======================= MEDIA QUERIES (MEDIUM DEVICES) =======================*/
+
+@media screen and (max-width: 1024px) {
+	.card__container__dark {
+		margin: 0 auto;
+	}
+	.card__container__light {
+		margin: 0 auto;
+	}
+}
+@media screen and (orientation: landscape) {
+	.card__container {
+		margin: 0 auto;
+	}
+}
+
+/*======================= MEDIA QUERIES (SMALL DEVICES) =======================*/
+
+@media screen and (max-width: 600px) {
+	.container {
+		width: var(--container-width-sm);
+	}
+	.card__container__dark {
+		margin: 0 auto;
+	}
+	.card__container__light {
+		margin: 0 auto;
+	}
+	.card__container {
+		width: 90%;
+	}
+}

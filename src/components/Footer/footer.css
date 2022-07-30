@@ -1,0 +1,25 @@
+.footer__container__dark {
+	padding: 1.2rem 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background: #161619;
+}
+.footer__container__light {
+	padding: 1.2rem 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background: #d5d4d8;
+}
+.social__icon {
+	color: #918e9b;
+	margin-right: 1.5rem;
+}
+.social__icon svg {
+	width: 1.6rem;
+	height: 1.6rem;
+}
+.hide {
+	display: none;
+}

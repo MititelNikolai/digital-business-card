@@ -1,0 +1,8 @@
+.buttons__container {
+	padding: 0rem 2.2rem 1.5rem 2.2rem;
+}
+.buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
